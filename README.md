@@ -8,6 +8,7 @@ The release is scoped to the supplied manuscript. It contains the historical pai
 
 - `original/`: original training, ablation, and retrieval code; archived run configurations; original data partitions.
 - `controlled/`: the separately frozen runtime used for the paper's perspective, blur, and brightness evaluation, with checkpoint identities and original/screened partitions.
+- `auxiliary_blur/`: the separate Appendix B blur-augmentation trainer, its original JSON partition, and the archived run record corresponding to Table 16.
 - `docs/`: source provenance, command details, and limitations of replaying the historical experiments.
 
 The two runtimes are kept separate because their frozen dependency versions differ. Do not replace one runtime's `robust_hash` package with the other.
@@ -36,7 +37,7 @@ Use the included custom retrieval partitions rather than substituting official c
 
 ## Experiments
 
-Read [original training instructions](docs/original_training.md) before replaying an archived configuration. Main established-objective experiments use the saved settings, including 30 epochs, 256 training pairs, and 20 training/evaluation workers. Exploratory runs retain their separate settings. The exact archived inputs for the separate auxiliary blur-training experiment were not recovered, so that experiment is not presented as runnable here; the independently applied blur evaluation is included in `controlled/`.
+Read [original training instructions](docs/original_training.md) before replaying an archived configuration. Main established-objective experiments use the saved settings, including 30 epochs, 256 training pairs, and 20 training/evaluation workers. Exploratory runs retain their separate settings. The [auxiliary blur-training experiment](auxiliary_blur/README.md) has its own original settings and JSON partition; it is distinct from the independently applied blur evaluation in `controlled/`.
 
 Read [controlled evaluation instructions](docs/controlled_evaluation.md) for the six historical HashNet checkpoints, decoded-RGB duplicate screening, and the 25 evaluation conditions. Checkpoint hashes identify the required weights; the network weight files themselves are not committed. The original and screened partitions and their metric conventions must remain distinct.
 

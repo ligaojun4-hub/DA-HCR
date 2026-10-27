@@ -1,0 +1,32 @@
+{
+  "files": [
+    {
+      "path": "run_caltech256_hashnet_degaug.py",
+      "remote_source": "legacy/scripts/run_caltech256_hashnet_degaug.py",
+      "bytes": 22793,
+      "sha256": "e1f227d5e5831004b1588b4fb3006e95a34da012de3d9fd79a0a32746a68d66f",
+      "change": "byte-preserved"
+    },
+    {
+      "path": "caltech256_seed42_split.json",
+      "remote_source": "legacy/scripts/outputs/splits/caltech256_seed42_split.json",
+      "bytes": 2019767,
+      "sha256": "2fe8db77dc72c339659ed599199856dcf14e3c8135f8c9e6aeca9b55eeaca803",
+      "change": "byte-preserved"
+    },
+    {
+      "path": "run_record.json",
+      "remote_source": "legacy/scripts/outputs/degaug_caltech256_hashnet_seed42/tables/caltech256_hashnet_degaug_test_meta.json",
+      "bytes": 1813,
+      "sha256": "f87e9decd4e37dca69aa44e411324714ff9698867b9eea1189235605807a230d",
+      "change": "byte-preserved"
+    }
+  ],
+  "checkpoint": {
+    "path": "scripts/outputs/degaug_caltech256_hashnet_seed42/checkpoints/caltech256_hashnet_degaug_best.pth",
+    "bytes": 44921419,
+    "sha256": "2a7b4a12158f7382787818c2b029653ea7d1c9778cde93177887fc64b8ba4fc2"
+  },
+  "weights_in_repository": false,
+  "source_and_records_location": "Original legacy/scripts/outputs, a separate working-directory-relative location"
+}

@@ -1,0 +1,77 @@
+{
+  "scope": "Archive consistency only; no fresh training or inference",
+  "manuscript": "Supplied 48-page PDF, Appendix B, Table 16, page 38",
+  "paper_pdf_sha256": "3fcba1ce8e226bb213825af6a076177481f2900d2aa78e89d34fca20df49d40f",
+  "rounded_table_values": [
+    0.4487,
+    0.4458,
+    0.4324,
+    0.3819,
+    0.42
+  ],
+  "test_record_curve_identical": true,
+  "degraded_mean_matches": true,
+  "epochs_in_history": 30,
+  "validation_records": [
+    {
+      "epoch": 5,
+      "robust_avg": 0.2866475458855391
+    },
+    {
+      "epoch": 10,
+      "robust_avg": 0.3288032494405259
+    },
+    {
+      "epoch": 15,
+      "robust_avg": 0.35190649494084125
+    },
+    {
+      "epoch": 20,
+      "robust_avg": 0.3641913333809487
+    },
+    {
+      "epoch": 25,
+      "robust_avg": 0.3686103815267585
+    },
+    {
+      "epoch": 30,
+      "robust_avg": 0.3680786074433669
+    }
+  ],
+  "selected_epoch": 25,
+  "selection_is_highest_validation_robust_avg": true,
+  "class_count": 256,
+  "split_counts": {
+    "train": 17910,
+    "val": 2977,
+    "test_query": 2977,
+    "gallery": 5982
+  },
+  "unique_relative_identifiers": 29846,
+  "all_identifiers_distinct_across_roles": true,
+  "pixel_duplicate_audit": "NOT_RUN for this separate historical split",
+  "archive_evidence": [
+    {
+      "path": "scripts/outputs/degaug_caltech256_hashnet_seed42/tables/caltech256_hashnet_degaug_history.json",
+      "bytes": 6136,
+      "sha256": "a5cf281277659321274d42695485feea68cbb0907c4d279f5c3e335c7045aa9e"
+    },
+    {
+      "path": "scripts/outputs/degaug_caltech256_hashnet_seed42/tables/caltech256_hashnet_degaug_test_curve.json",
+      "bytes": 230,
+      "sha256": "dbebc75575866feabcc43dbb4917b675d1142e823e41e42db8632a0dda3f5542"
+    },
+    {
+      "path": "scripts/outputs/degaug_caltech256_hashnet_seed42/tables/caltech256_hashnet_degaug_val_curve.json",
+      "bytes": 1691,
+      "sha256": "e090ac872d8b079eac20910f7319446775c302d81f1319e040e31f4d2449fff7"
+    }
+  ],
+  "checkpoint_copy_filename_counts": {
+    "train": 38,
+    "val": 4,
+    "test_query": 7,
+    "gallery": 17
+  },
+  "identifier_uniqueness_is_not_pixel_uniqueness": true
+}

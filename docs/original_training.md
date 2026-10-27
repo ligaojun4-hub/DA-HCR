@@ -105,7 +105,7 @@ python scripts/07_eval_checkpoint.py \
 
 ## Known source gaps and verification limits
 
-- The separate auxiliary blur-training experiment in AppendixB(pp.37-38) uses a different split/protocol and batch128/eval256/medium-only settings. Its exact saved configuration, split and executed source were not recovered from the currently inspected original run-config set. No main-suite config or later evaluator has been relabeled as this experiment. Its exact rerun is **not provided** by this package until those original materials are recovered.
+- The separate auxiliary blur-training experiment in Appendix B (pp.37-38) is provided under `auxiliary_blur/`, with its original script, independent JSON partition and archived run record. It uses batch128/eval256/medium-only settings and eight workers according to its own recorded arguments. These are historical settings for a separate experiment; the 71 configurations in `original/` remain unchanged with 20 workers. Do not use it as a matched replacement for the main protocol.
 - The exact historical SAAT center environment/file identity and original center-file hashes are not proven by `config.json` alone.
 - Figure-specific plotting scripts/source bindings were not all recovered as independently runnable generators. The quantitative retrieval and code-stability routines are included; manuscript reconstruction is not part of this repository.
 - No raw dataset, pretrained weight, training checkpoint, large result cache, later extension, cloud management helper or private account information is included.

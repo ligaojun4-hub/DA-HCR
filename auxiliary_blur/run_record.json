@@ -1,0 +1,73 @@
+{
+  "dataset": "Caltech256",
+  "baseline": "HashNet",
+  "method": "Base+DegAug",
+  "bits": 64,
+  "seed": 42,
+  "train_degrade": "medium",
+  "degrade_params": {
+    "clean": null,
+    "weak": {
+      "scale": 0.75,
+      "jpeg_quality": 70,
+      "blur_sigma": 0.5
+    },
+    "medium": {
+      "scale": 0.5,
+      "jpeg_quality": 50,
+      "blur_sigma": 1.0
+    },
+    "strong": {
+      "scale": 0.25,
+      "jpeg_quality": 30,
+      "blur_sigma": 1.5
+    }
+  },
+  "loss": "0.5 * (L_sup(clean) + L_sup(degraded))",
+  "no_dahcr_consistency": true,
+  "best_epoch": 25,
+  "val_robust_avg": 0.3686103815267585,
+  "val_clean_mAP": 0.38323944425178075,
+  "test_metrics": {
+    "clean": {
+      "mAP": 0.4486822324366539
+    },
+    "weak": {
+      "mAP": 0.445768726393838
+    },
+    "medium": {
+      "mAP": 0.4324461225098639
+    },
+    "strong": {
+      "mAP": 0.3819039339108614
+    },
+    "robust_avg": 0.4200395942715211
+  },
+  "split_json": "outputs/splits/caltech256_seed42_split.json",
+  "checkpoint_path": "outputs/degaug_caltech256_hashnet_seed42/checkpoints/caltech256_hashnet_degaug_best.pth",
+  "args": {
+    "data_root": "/root/autodl-tmp/robust_hash_project_scaffold/robust_hash_project_scaffold/data/raw/caltech256",
+    "out_dir": "outputs/degaug_caltech256_hashnet_seed42",
+    "split_json": "outputs/splits/caltech256_seed42_split.json",
+    "seed": 42,
+    "bits": 64,
+    "epochs": 30,
+    "batch_size": 128,
+    "eval_batch_size": 256,
+    "num_workers": 8,
+    "input_size": 224,
+    "lr_backbone": 5e-05,
+    "lr_head": 0.0005,
+    "weight_decay": 0.0001,
+    "beta": 1.0,
+    "quant_weight": 0.001,
+    "train_degrade": "medium",
+    "eval_interval": 5,
+    "train_frac": 0.6,
+    "val_frac": 0.1,
+    "query_frac": 0.1,
+    "exclude_clutter": true,
+    "pretrained": true,
+    "amp": true
+  }
+}
