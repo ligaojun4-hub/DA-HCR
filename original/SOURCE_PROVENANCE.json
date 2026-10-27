@@ -1,0 +1,730 @@
+[
+  {
+    "path": "src/robust_hash/__init__.py",
+    "source": "legacy/src/robust_hash/__init__.py",
+    "source_sha256": "1a3fabdd8814bbc4062779fb80944adceeb78fa2b1c858a8484dd1e338da18ae",
+    "release_sha256": "1a3fabdd8814bbc4062779fb80944adceeb78fa2b1c858a8484dd1e338da18ae",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/data/__init__.py",
+    "source": "legacy/src/robust_hash/data/__init__.py",
+    "source_sha256": "a7bb89f55e84c2e6c64b75e4fb2eb3432f0c9f8f815bb34588f4d4e8861fd2e2",
+    "release_sha256": "a7bb89f55e84c2e6c64b75e4fb2eb3432f0c9f8f815bb34588f4d4e8861fd2e2",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/data/datasets.py",
+    "source": "legacy/src/robust_hash/data/datasets.py",
+    "source_sha256": "da00037bdbdb27095d8f176542508d187b61eb689843971bc2e5a3573e742e63",
+    "release_sha256": "da00037bdbdb27095d8f176542508d187b61eb689843971bc2e5a3573e742e63",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/data/splits.py",
+    "source": "legacy/src/robust_hash/data/splits.py",
+    "source_sha256": "549af77c11b47f619bd120ec9bef3808500687878daa300acad95ee5d95b3cbe",
+    "release_sha256": "549af77c11b47f619bd120ec9bef3808500687878daa300acad95ee5d95b3cbe",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/data/transforms.py",
+    "source": "legacy/src/robust_hash/data/transforms.py",
+    "source_sha256": "565820a7aa662c1a59b982d3becdbb0977de2b174eb7bd66873118afe0dfb017",
+    "release_sha256": "52ef4605fb181ece6985b8452c4a33f48eeba4105a4a2aeff984bae9b83e4191",
+    "change": "Only Image.open location remapped; original seed identity retained"
+  },
+  {
+    "path": "src/robust_hash/evaluation/__init__.py",
+    "source": "legacy/src/robust_hash/evaluation/__init__.py",
+    "source_sha256": "6df5a7704cc6cf40a45448e24944b39ab3e6fdb40961b324966f27cb5f8e0f98",
+    "release_sha256": "6df5a7704cc6cf40a45448e24944b39ab3e6fdb40961b324966f27cb5f8e0f98",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/evaluation/retrieval.py",
+    "source": "legacy/src/robust_hash/evaluation/retrieval.py",
+    "source_sha256": "42186b2152e9c5b2f51912305a1ba7b132c70edaee4a6e442eb6d4bd8005f183",
+    "release_sha256": "42186b2152e9c5b2f51912305a1ba7b132c70edaee4a6e442eb6d4bd8005f183",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/losses/__init__.py",
+    "source": "legacy/src/robust_hash/losses/__init__.py",
+    "source_sha256": "bb076c859395c1dd51a6204b2582cdab4fdb963dd032bdf13199de979f271aa8",
+    "release_sha256": "bb076c859395c1dd51a6204b2582cdab4fdb963dd032bdf13199de979f271aa8",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/losses/hash_losses.py",
+    "source": "legacy/src/robust_hash/losses/hash_losses.py",
+    "source_sha256": "7cee97f1e32b973f5c6d400c9570d0c50f5c86bc6461f7c9edffff5502de5241",
+    "release_sha256": "7cee97f1e32b973f5c6d400c9570d0c50f5c86bc6461f7c9edffff5502de5241",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/losses/hash_losses_v3_dasupcon.py",
+    "source": "legacy/src/robust_hash/losses/hash_losses_v3_dasupcon.py",
+    "source_sha256": "4adc4382330b46f72171e6fc1c24503f7d62777104aae87dd15da4f6478732e4",
+    "release_sha256": "4adc4382330b46f72171e6fc1c24503f7d62777104aae87dd15da4f6478732e4",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/models/__init__.py",
+    "source": "legacy/src/robust_hash/models/__init__.py",
+    "source_sha256": "f4cd2ed1cabf59d7cdffb9a0b817e1e5ed0d11e228e839437376002c82dde29e",
+    "release_sha256": "f4cd2ed1cabf59d7cdffb9a0b817e1e5ed0d11e228e839437376002c82dde29e",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/models/backbone.py",
+    "source": "legacy/src/robust_hash/models/backbone.py",
+    "source_sha256": "685e9cc2780e41329905a18fe293fc6b84a17722a2cc09aec1796f4efd7941be",
+    "release_sha256": "200398ba51433b7616bf39e6700b1e9c398147a4282ac453b1dbf9b03864650c",
+    "change": "Refuse silent CNN fallback; require paper ResNet18"
+  },
+  {
+    "path": "src/robust_hash/models/hash_model.py",
+    "source": "legacy/src/robust_hash/models/hash_model.py",
+    "source_sha256": "99240bd5cd4685070a19dd4b5ff7db5b0c75cce05872f3ec9d66526fa966affe",
+    "release_sha256": "99240bd5cd4685070a19dd4b5ff7db5b0c75cce05872f3ec9d66526fa966affe",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/utils/__init__.py",
+    "source": "legacy/src/robust_hash/utils/__init__.py",
+    "source_sha256": "127f89dcf0b8aff43e12333309d362452af3ec1ec92de6e7c41c6524bc915672",
+    "release_sha256": "127f89dcf0b8aff43e12333309d362452af3ec1ec92de6e7c41c6524bc915672",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "src/robust_hash/utils/paths.py",
+    "source": "legacy/src/robust_hash/utils/paths.py",
+    "source_sha256": "94f9f0622cbc80c300219d047d42f2a3cd1b00449c7b72af328ef3f7b0f5c6bc",
+    "release_sha256": "e8fc5f0b978153ae04bad68d290ade1d003ee23a59a771acbbdc2d1318bd0f82",
+    "change": "Data/split root and file-open path portability; retain original identity for noise seeds"
+  },
+  {
+    "path": "src/robust_hash/utils/seed.py",
+    "source": "legacy/src/robust_hash/utils/seed.py",
+    "source_sha256": "55f8ebd44befbdbcd8c03ed09ea6c09c24d3934eb36e67fd9f9f3146375e4795",
+    "release_sha256": "55f8ebd44befbdbcd8c03ed09ea6c09c24d3934eb36e67fd9f9f3146375e4795",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/06_train_v3_dasupcon.py",
+    "source": "legacy/scripts/06_train_v3_dasupcon.py",
+    "source_sha256": "7e7f16364d6b1c4c237c189b009ea14b4caaa1fb2b305aa2eb482681df37c338",
+    "release_sha256": "7e7f16364d6b1c4c237c189b009ea14b4caaa1fb2b305aa2eb482681df37c338",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/06_train_v3_dasupcon_component_ablation_safe.py",
+    "source": "legacy/scripts/06_train_v3_dasupcon_component_ablation_safe.py",
+    "source_sha256": "e324008d1b2fec546921149c58e0dc9feee1967131c4336581a54dc47718a25f",
+    "release_sha256": "e324008d1b2fec546921149c58e0dc9feee1967131c4336581a54dc47718a25f",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/06_train_v19_shc.py",
+    "source": "legacy/scripts/06_train_v19_shc.py",
+    "source_sha256": "ce8382d3a7b77c43147eae25f8e1417e2324e89bf3fd75bb85bb4b19a45c40db",
+    "release_sha256": "ce8382d3a7b77c43147eae25f8e1417e2324e89bf3fd75bb85bb4b19a45c40db",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/06_train_v23_nhl.py",
+    "source": "legacy/scripts/06_train_v23_nhl.py",
+    "source_sha256": "362884f4323212d72196a31bbde7bbd4219f583a62b9bfbccd23730100cca5a5",
+    "release_sha256": "362884f4323212d72196a31bbde7bbd4219f583a62b9bfbccd23730100cca5a5",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/06_train_v29_saat_recover.py",
+    "source": "legacy/scripts/06_train_v29_saat_recover.py",
+    "source_sha256": "90cf35702faf0e7ef117a6916cca2724489343f5ef0776593a165160d92d04ad",
+    "release_sha256": "90cf35702faf0e7ef117a6916cca2724489343f5ef0776593a165160d92d04ad",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/07_eval_checkpoint.py",
+    "source": "legacy/scripts/07_eval_checkpoint.py",
+    "source_sha256": "e4499e839fd2de8d6c06a60c81d10999faf1b28593c444dd990123efd1215eab",
+    "release_sha256": "e4499e839fd2de8d6c06a60c81d10999faf1b28593c444dd990123efd1215eab",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/08_eval_pk_recall.py",
+    "source": "legacy/scripts/08_eval_pk_recall.py",
+    "source_sha256": "7948ee463243c675cca970ae0cca855e028a62d41776f528f2dac3901c029c0b",
+    "release_sha256": "7948ee463243c675cca970ae0cca855e028a62d41776f528f2dac3901c029c0b",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "analysis/v12_hashnet_bit_stability_forward_single_v2.py",
+    "source": "legacy/tools/v12_hashnet_bit_stability_forward_single_v2.py",
+    "source_sha256": "be25dd8d719ce76c5639d43ea54ae9f7d371bca51b923257d31199d56460c9eb",
+    "release_sha256": "be25dd8d719ce76c5639d43ea54ae9f7d371bca51b923257d31199d56460c9eb",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/prepare_shc_trainonly_centers.py",
+    "source": "legacy/outputs/formal_v20_shc_trainonly_centers/shc_caltech256_exact30_20260520_083236/scripts/prepare_shc_trainonly_centers.py",
+    "source_sha256": "7639c946a5636ce1310fe759de049fde462e35581723dcd99d75b83e9e2b9e48",
+    "release_sha256": "7639c946a5636ce1310fe759de049fde462e35581723dcd99d75b83e9e2b9e48",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "scripts/prepare_shc_trainonly_centers_general.py",
+    "source": "legacy/outputs/formal_v22_shc_trainonly_fixed_t06/shc_mit_flowers_fixed_t06_20260520_125206/scripts/prepare_shc_trainonly_centers_general.py",
+    "source_sha256": "2b04ce46b7ea62600098a6a3081bb2f12c19423a5608e35590ec91bd9ce3c2b9",
+    "release_sha256": "2b04ce46b7ea62600098a6a3081bb2f12c19423a5608e35590ec91bd9ce3c2b9",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dsh_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_dsh_replacement_exact30/dsh_base/run/config.json",
+    "source_sha256": "597e12cedaaa4813a57e14a6cdc2ec58c5d69a4aaf3b7d652c5ab73ab80b35c5",
+    "release_sha256": "597e12cedaaa4813a57e14a6cdc2ec58c5d69a4aaf3b7d652c5ab73ab80b35c5",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_dsh_replacement_exact30/dsh_dasupcon/run/config.json",
+    "source_sha256": "cd7c0f173150842ba7895687935a6bb11eeb8e3d5739fc3ad936e27fab508e08",
+    "release_sha256": "cd7c0f173150842ba7895687935a6bb11eeb8e3d5739fc3ad936e27fab508e08",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dpsh_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/dpsh_base/run/config.json",
+    "source_sha256": "b3d9b5ce5f5615f32d4b79a14cc2d0f5d9d8b9c15fbf28f670177aa5c697c033",
+    "release_sha256": "b3d9b5ce5f5615f32d4b79a14cc2d0f5d9d8b9c15fbf28f670177aa5c697c033",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dpsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/dpsh_dasupcon/run/config.json",
+    "source_sha256": "1899c1d9c006ad6580fe352c6c63afec68a97bce132a9cb6facdfaa13090b446",
+    "release_sha256": "1899c1d9c006ad6580fe352c6c63afec68a97bce132a9cb6facdfaa13090b446",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dhn_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/dhn_base/run/config.json",
+    "source_sha256": "62a7bdad4f1c4f1d5e669fd2afa5904ff9d385733220e9612adc14877f70e309",
+    "release_sha256": "62a7bdad4f1c4f1d5e669fd2afa5904ff9d385733220e9612adc14877f70e309",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_dhn_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/dhn_dasupcon/run/config.json",
+    "source_sha256": "8796ec94aa57608836a0ddef91c59b853c597ccdc6c65fb47a67b2c2af19b584",
+    "release_sha256": "8796ec94aa57608836a0ddef91c59b853c597ccdc6c65fb47a67b2c2af19b584",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_hashnet_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/hashnet_base/run/config.json",
+    "source_sha256": "bc46b7f57359cd0642025305b009fb647c715f8807753b7b5d9d5c7178f2f36b",
+    "release_sha256": "bc46b7f57359cd0642025305b009fb647c715f8807753b7b5d9d5c7178f2f36b",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_hashnet_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/hashnet_dasupcon/run/config.json",
+    "source_sha256": "478559caee362d00ff5d76bdc1b9ede3d79163a36256213879dd1005787dff9a",
+    "release_sha256": "478559caee362d00ff5d76bdc1b9ede3d79163a36256213879dd1005787dff9a",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_greedyhash_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/greedyhash_base/run/config.json",
+    "source_sha256": "270e4b0e813e1f142e66066032ac8d0ade41986f948053ccee95cc810ca578ea",
+    "release_sha256": "270e4b0e813e1f142e66066032ac8d0ade41986f948053ccee95cc810ca578ea",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_caltech256_greedyhash_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_5baseline_exact30/greedyhash_dasupcon/run/config.json",
+    "source_sha256": "fd66249baf25ed43a29a23caf8edb268e9ebac65469a51d709a3783234da1391",
+    "release_sha256": "fd66249baf25ed43a29a23caf8edb268e9ebac65469a51d709a3783234da1391",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dsh_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dsh_base/run/config.json",
+    "source_sha256": "e0f045d41339c398e18a8805a4bd0a53f7eda82c174e40c2115753f41be08fd6",
+    "release_sha256": "e0f045d41339c398e18a8805a4bd0a53f7eda82c174e40c2115753f41be08fd6",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dsh_dasupcon/run/config.json",
+    "source_sha256": "afef05e99149c4a41c5c45cf1aad8e71076f6d1b0c8a4ab8f8c6e6ffe4b1787a",
+    "release_sha256": "afef05e99149c4a41c5c45cf1aad8e71076f6d1b0c8a4ab8f8c6e6ffe4b1787a",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dpsh_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dpsh_base/run/config.json",
+    "source_sha256": "3a0471740b9eb858d70b6db9d43176321573bb07dd9a5d5349bd898f8478df24",
+    "release_sha256": "3a0471740b9eb858d70b6db9d43176321573bb07dd9a5d5349bd898f8478df24",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dpsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dpsh_dasupcon/run/config.json",
+    "source_sha256": "007a9ca695205b49dc115b8d72e69f2d8b120196283d04c816350d0bf6b5ca68",
+    "release_sha256": "007a9ca695205b49dc115b8d72e69f2d8b120196283d04c816350d0bf6b5ca68",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dhn_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dhn_base/run/config.json",
+    "source_sha256": "eca3c31187e9ac4a144f6ffef3bbdb0c77254c3ecb929b5b0eedc3fb9e1ef847",
+    "release_sha256": "eca3c31187e9ac4a144f6ffef3bbdb0c77254c3ecb929b5b0eedc3fb9e1ef847",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_dhn_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/dhn_dasupcon/run/config.json",
+    "source_sha256": "5eacdbbf5ebab550f3d9447d8177f7f444749133847cdda39e09e06438dae73a",
+    "release_sha256": "5eacdbbf5ebab550f3d9447d8177f7f444749133847cdda39e09e06438dae73a",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_hashnet_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/hashnet_base/run/config.json",
+    "source_sha256": "366ebb89410b9b1b8dad5e78aeed7b09ae61b1c4e230e1b1a9efcf4c2c2777b2",
+    "release_sha256": "366ebb89410b9b1b8dad5e78aeed7b09ae61b1c4e230e1b1a9efcf4c2c2777b2",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_hashnet_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/hashnet_dasupcon/run/config.json",
+    "source_sha256": "cc86b8fe589881cb7b4af5d50665b8d532c05b13db28420b951696c2fe49b93c",
+    "release_sha256": "cc86b8fe589881cb7b4af5d50665b8d532c05b13db28420b951696c2fe49b93c",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_greedyhash_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/greedyhash_base/run/config.json",
+    "source_sha256": "55b967380b2e2dc02ce9b5bc253232df7783384fbf491dc58b12cf5d48e62076",
+    "release_sha256": "55b967380b2e2dc02ce9b5bc253232df7783384fbf491dc58b12cf5d48e62076",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_mit_indoor67_greedyhash_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/greedyhash_dasupcon/run/config.json",
+    "source_sha256": "38dc6ef119d42208780b3054f6f116414b1180361632f65e06c11919fdf21e9b",
+    "release_sha256": "38dc6ef119d42208780b3054f6f116414b1180361632f65e06c11919fdf21e9b",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dsh_base.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dsh_base/run/config.json",
+    "source_sha256": "a0ae1e9e06c2d0c28d790b52f2d05d59dec1b2d82ec84c011d07daee0d7ca257",
+    "release_sha256": "a0ae1e9e06c2d0c28d790b52f2d05d59dec1b2d82ec84c011d07daee0d7ca257",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dsh_dasupcon/run/config.json",
+    "source_sha256": "c9e17a9d83222e5ff4d0965ad4e410980f3513e65fe5ec199687038100850d50",
+    "release_sha256": "c9e17a9d83222e5ff4d0965ad4e410980f3513e65fe5ec199687038100850d50",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dpsh_base.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dpsh_base/run/config.json",
+    "source_sha256": "4b47df88d9aa90a0273fd3ecfcd88e927234db0591abf0e90fc8212530f243e3",
+    "release_sha256": "4b47df88d9aa90a0273fd3ecfcd88e927234db0591abf0e90fc8212530f243e3",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dpsh_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dpsh_dasupcon/run/config.json",
+    "source_sha256": "b44c3968b2504f2d03ce6ce5436379d4828fd7dfbff41171b942fe946f6cb9bb",
+    "release_sha256": "b44c3968b2504f2d03ce6ce5436379d4828fd7dfbff41171b942fe946f6cb9bb",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dhn_base.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dhn_base/run/config.json",
+    "source_sha256": "4bd5c0f94657ea92d98e019db97b95b2ef4c8797db5d481b78d8d28742c51e81",
+    "release_sha256": "4bd5c0f94657ea92d98e019db97b95b2ef4c8797db5d481b78d8d28742c51e81",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_dhn_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/dhn_dasupcon/run/config.json",
+    "source_sha256": "a9498db2e23738ba0f10ba8d2a3deaa385b722087c731ce9534f505061bebaac",
+    "release_sha256": "a9498db2e23738ba0f10ba8d2a3deaa385b722087c731ce9534f505061bebaac",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_hashnet_base.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/hashnet_base/run/config.json",
+    "source_sha256": "4c24c716090d4fcaed2e04e7f76b9eefa19e666faa37eeb4abbef5807e4fb776",
+    "release_sha256": "4c24c716090d4fcaed2e04e7f76b9eefa19e666faa37eeb4abbef5807e4fb776",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_hashnet_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/hashnet_dasupcon/run/config.json",
+    "source_sha256": "e0d5f6ad5909135cd750391c082caf41b65665198a14432a4ed6c148113d157e",
+    "release_sha256": "e0d5f6ad5909135cd750391c082caf41b65665198a14432a4ed6c148113d157e",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_greedyhash_base.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/greedyhash_base/run/config.json",
+    "source_sha256": "47cddc4a360285a0bd8234063800933291c5d33187c48c6c879b20b523b7fb1a",
+    "release_sha256": "47cddc4a360285a0bd8234063800933291c5d33187c48c6c879b20b523b7fb1a",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/main_flowers102_greedyhash_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/greedyhash_dasupcon/run/config.json",
+    "source_sha256": "f724d84121fb6389239c9b6b0535a33c647ca4a86b0d0b1d974f9f25cb9272c5",
+    "release_sha256": "f724d84121fb6389239c9b6b0535a33c647ca4a86b0d0b1d974f9f25cb9272c5",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_caltech256_43_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_multiseed/hashnet_base_seed43/run/config.json",
+    "source_sha256": "7b552fff66527b06e07621fee27cfdaffc77f1e04147cc548930fe7a2d535d8b",
+    "release_sha256": "7b552fff66527b06e07621fee27cfdaffc77f1e04147cc548930fe7a2d535d8b",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_caltech256_43_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_multiseed/hashnet_dasupcon_seed43/run/config.json",
+    "source_sha256": "d14a5650cf1ada5ed5664b35643a7642d0df2b9d6ce8c14a29a67a2186f29af6",
+    "release_sha256": "d14a5650cf1ada5ed5664b35643a7642d0df2b9d6ce8c14a29a67a2186f29af6",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_caltech256_44_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_multiseed/hashnet_base_seed44/run/config.json",
+    "source_sha256": "9aef6e665b8de02b0443211f11aa54839aeb67808127d9e538c50dd754b762d6",
+    "release_sha256": "9aef6e665b8de02b0443211f11aa54839aeb67808127d9e538c50dd754b762d6",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_caltech256_44_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_multiseed/hashnet_dasupcon_seed44/run/config.json",
+    "source_sha256": "5c20760605f4dd323a1018688db0a1a7b340612adc30bd0e96b496aae86c8081",
+    "release_sha256": "5c20760605f4dd323a1018688db0a1a7b340612adc30bd0e96b496aae86c8081",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_mit_indoor67_43_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_hashnet_multiseed/hashnet_base_seed43/run/config.json",
+    "source_sha256": "36b16d45b34e10a4355ca6575dc84027dae1aed497717e8e3ceec4de031c9282",
+    "release_sha256": "36b16d45b34e10a4355ca6575dc84027dae1aed497717e8e3ceec4de031c9282",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_mit_indoor67_43_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_hashnet_multiseed/hashnet_dasupcon_seed43/run/config.json",
+    "source_sha256": "b90de1dffcdb756a0a2193d1b91f36de1136a819983c5ad83caf65aa7db23f16",
+    "release_sha256": "b90de1dffcdb756a0a2193d1b91f36de1136a819983c5ad83caf65aa7db23f16",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_mit_indoor67_44_base.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_hashnet_multiseed/hashnet_base_seed44/run/config.json",
+    "source_sha256": "606777191094fffe4f336383a26701637d0a9999cc5a56452ae838b6beec14ad",
+    "release_sha256": "606777191094fffe4f336383a26701637d0a9999cc5a56452ae838b6beec14ad",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/seed_mit_indoor67_44_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/mit_indoor67_hashnet_multiseed/hashnet_dasupcon_seed44/run/config.json",
+    "source_sha256": "3786e1ae9c31d34732d57efbfea43895a41e6ba7ad6f3fb19631b56596e4aab7",
+    "release_sha256": "3786e1ae9c31d34732d57efbfea43895a41e6ba7ad6f3fb19631b56596e4aab7",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/bits_32_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_bit_ablation/hashnet_base_32bit/run/config.json",
+    "source_sha256": "8d4f09b8bd8e2d76ba0bb8921ae2c5fcbe828e6bb2a8e7bc75c49f6b6c4cfc96",
+    "release_sha256": "8d4f09b8bd8e2d76ba0bb8921ae2c5fcbe828e6bb2a8e7bc75c49f6b6c4cfc96",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/bits_32_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_bit_ablation/hashnet_dasupcon_32bit/run/config.json",
+    "source_sha256": "b6123cfe519d0280ba951d1aca9fda725682087607103a368882c078251366c0",
+    "release_sha256": "b6123cfe519d0280ba951d1aca9fda725682087607103a368882c078251366c0",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/bits_128_base.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_bit_ablation/hashnet_base_128bit/run/config.json",
+    "source_sha256": "ed7eb608376c46bdf61f14b9fdda14e961c8955da0dd2db2ba0bf3485a5c426c",
+    "release_sha256": "ed7eb608376c46bdf61f14b9fdda14e961c8955da0dd2db2ba0bf3485a5c426c",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/bits_128_dasupcon.json",
+    "source": "legacy/outputs/formal_v12/caltech256_hashnet_bit_ablation/hashnet_dasupcon_128bit/run/config.json",
+    "source_sha256": "84ff60ae3e9d25018d5218bd351af8de54883c9a35d25d703cfe7931b2690a8f",
+    "release_sha256": "84ff60ae3e9d25018d5218bd351af8de54883c9a35d25d703cfe7931b2690a8f",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/equal_positive_dsh.json",
+    "source": "legacy/outputs/formal_v25b_supcon_check_dsh_dpsh_dhn/caltech256_vanilla_supcon_20260521_000101/runs/dsh/run/config.json",
+    "source_sha256": "8760784e0c4d0e6d6e5403ae5cbae817f1071be5cd4be3c38a43e28106c5898d",
+    "release_sha256": "8760784e0c4d0e6d6e5403ae5cbae817f1071be5cd4be3c38a43e28106c5898d",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/equal_positive_dpsh.json",
+    "source": "legacy/outputs/formal_v25b_supcon_check_dsh_dpsh_dhn/caltech256_vanilla_supcon_20260521_000101/runs/dpsh/run/config.json",
+    "source_sha256": "9d8e2b928763fd0fc6e17b2371ad0718b79673f8d082301e86d94f656a3825bb",
+    "release_sha256": "9d8e2b928763fd0fc6e17b2371ad0718b79673f8d082301e86d94f656a3825bb",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/equal_positive_dhn.json",
+    "source": "legacy/outputs/formal_v25b_supcon_check_dsh_dpsh_dhn/caltech256_vanilla_supcon_20260521_000101/runs/dhn/run/config.json",
+    "source_sha256": "193076867cb804479e47dc056a436f36a0a6b63c8fdebeb11c7353da6507c2d7",
+    "release_sha256": "193076867cb804479e47dc056a436f36a0a6b63c8fdebeb11c7353da6507c2d7",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/positive_relation_same_image_only.json",
+    "source": "legacy/outputs/formal_v12_component_ablation/caltech256_hashnet_components_safe_20260507_000847/same_image_only/run/config.json",
+    "source_sha256": "4c00270cfcb9c0e63fb9925c4c3488df87b746f116424b1480db8639834762ee",
+    "release_sha256": "4c00270cfcb9c0e63fb9925c4c3488df87b746f116424b1480db8639834762ee",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/positive_relation_class_aware_only.json",
+    "source": "legacy/outputs/formal_v12_component_ablation/caltech256_hashnet_components_safe_20260507_000847/class_aware_only/run/config.json",
+    "source_sha256": "590832aa6469b7a0cd7737bc1bec2e16ceae97fcc4043cc7e9e5794979278d27",
+    "release_sha256": "590832aa6469b7a0cd7737bc1bec2e16ceae97fcc4043cc7e9e5794979278d27",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.05_temperature0.1.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.05_temp_0.1/run/config.json",
+    "source_sha256": "46673627d02f33a12eaaf80d5f5be1a4841f4becb53d8a6901e1d12043cc4c4c",
+    "release_sha256": "46673627d02f33a12eaaf80d5f5be1a4841f4becb53d8a6901e1d12043cc4c4c",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.1_temperature0.1.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.1_temp_0.1/run/config.json",
+    "source_sha256": "b4e38132817d3040ca1be12f6da0d2abd094e095893c0fa1ede2648e33ebb9dd",
+    "release_sha256": "b4e38132817d3040ca1be12f6da0d2abd094e095893c0fa1ede2648e33ebb9dd",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.2_temperature0.1.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.2_temp_0.1/run/config.json",
+    "source_sha256": "10e0f9f2f0e23bb85f30d5622d7053b41955771217948269d3038da54d0f4acb",
+    "release_sha256": "10e0f9f2f0e23bb85f30d5622d7053b41955771217948269d3038da54d0f4acb",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.3_temperature0.1.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.3_temp_0.1/run/config.json",
+    "source_sha256": "3be9f16524b67ee06f509358ec935b1dfb10f1649408cdfba45852eb2a6a29b7",
+    "release_sha256": "3be9f16524b67ee06f509358ec935b1dfb10f1649408cdfba45852eb2a6a29b7",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.3_temperature0.07.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.3_temp_0.07/run/config.json",
+    "source_sha256": "6606bef0ea907800a9af3652ca2020afb27f7cbc61eca7f38775a1ad87415070",
+    "release_sha256": "6606bef0ea907800a9af3652ca2020afb27f7cbc61eca7f38775a1ad87415070",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/hparam_alpha0.3_temperature0.2.json",
+    "source": "legacy/outputs/hparam_sweep_v12/caltech256_hashnet_dasupcon_joint/alpha_0.3_temp_0.2/run/config.json",
+    "source_sha256": "72fbf6b09d70ea5f99b2a42cdbba6dc1415e0623a423efbd4ccf41265fe768d5",
+    "release_sha256": "72fbf6b09d70ea5f99b2a42cdbba6dc1415e0623a423efbd4ccf41265fe768d5",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_shc_base.json",
+    "source": "legacy/outputs/formal_v20_shc_trainonly_centers/shc_caltech256_exact30_20260520_083236/runs/base/run/config.json",
+    "source_sha256": "1bae4c0a8f59db45cf0e4ed1916720c1becf098791431f6bf05b913d66ff6d0e",
+    "release_sha256": "1bae4c0a8f59db45cf0e4ed1916720c1becf098791431f6bf05b913d66ff6d0e",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_shc_dasupcon.json",
+    "source": "legacy/outputs/formal_v21_shc_trainonly_dahcr_tune/shc_caltech256_tune_20260520_095405/runs/T06_alpha0.10_temp0.30_wimg2.0_wcls1.0/run/config.json",
+    "source_sha256": "7c13424fca8e9b3590fd6ddd8ba9bba1ee1bcb7374cd2ac345be689bfd86d8a1",
+    "release_sha256": "7c13424fca8e9b3590fd6ddd8ba9bba1ee1bcb7374cd2ac345be689bfd86d8a1",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_shc_base.json",
+    "source": "legacy/outputs/formal_v22_shc_trainonly_fixed_t06/shc_mit_flowers_fixed_t06_20260520_125206/runs/mit_indoor67/base/run/config.json",
+    "source_sha256": "cf4499cb89b506f88e72c3a0e93693f9c767ba96a3aff58dabeac50054613a4f",
+    "release_sha256": "cf4499cb89b506f88e72c3a0e93693f9c767ba96a3aff58dabeac50054613a4f",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_shc_dasupcon.json",
+    "source": "legacy/outputs/formal_v22_shc_trainonly_fixed_t06/shc_mit_flowers_fixed_t06_20260520_125206/runs/mit_indoor67/dahcr/run/config.json",
+    "source_sha256": "09905a418d968355554612578a23de675c51fb9f4f8d8c67a5a98e90e8b62e71",
+    "release_sha256": "09905a418d968355554612578a23de675c51fb9f4f8d8c67a5a98e90e8b62e71",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_shc_base.json",
+    "source": "legacy/outputs/formal_v22_shc_trainonly_fixed_t06/shc_mit_flowers_fixed_t06_20260520_125206/runs/flowers102/base/run/config.json",
+    "source_sha256": "d5b96280472a8e5b800de0c4d162dcf3e6c02cb50428022eb2605095fb889171",
+    "release_sha256": "d5b96280472a8e5b800de0c4d162dcf3e6c02cb50428022eb2605095fb889171",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_shc_dasupcon.json",
+    "source": "legacy/outputs/formal_v22_shc_trainonly_fixed_t06/shc_mit_flowers_fixed_t06_20260520_125206/runs/flowers102/dahcr/run/config.json",
+    "source_sha256": "e8c5e2d7376439e9047174e7decce464e6cf7b7051fd7c25b3ae5367a33118c1",
+    "release_sha256": "e8c5e2d7376439e9047174e7decce464e6cf7b7051fd7c25b3ae5367a33118c1",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_nhl_base.json",
+    "source": "legacy/outputs/formal_v23_nhl_nested_hash_tune/nhl_caltech256_tune_20260520_175110/runs/base/run/config.json",
+    "source_sha256": "89cd232e19cc8972ac3028da5dbbb698a17cd7c3b5f547f177b1ce3642cee87f",
+    "release_sha256": "89cd232e19cc8972ac3028da5dbbb698a17cd7c3b5f547f177b1ce3642cee87f",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_nhl_dasupcon.json",
+    "source": "legacy/outputs/formal_v23_nhl_nested_hash_tune/nhl_caltech256_tune_20260520_175110/runs/T04_alpha0.10_temp0.20_wimg2.0_wcls1.0/run/config.json",
+    "source_sha256": "95da8e46d6d3bac1204e5464d708e1a0586b5f66ab4e6034b155180e70cd1883",
+    "release_sha256": "95da8e46d6d3bac1204e5464d708e1a0586b5f66ab4e6034b155180e70cd1883",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_nhl_base.json",
+    "source": "legacy/outputs/formal_v24_nhl_fixed_t04/nhl_mit_flowers_fixed_t04_20260520_210816/runs/mit_indoor67/base/run/config.json",
+    "source_sha256": "99c9e151d1601b868e09374df715efcef813581be00d6993b1b572d83be2cf4a",
+    "release_sha256": "99c9e151d1601b868e09374df715efcef813581be00d6993b1b572d83be2cf4a",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_nhl_dasupcon.json",
+    "source": "legacy/outputs/formal_v24_nhl_fixed_t04/nhl_mit_flowers_fixed_t04_20260520_210816/runs/mit_indoor67/dahcr/run/config.json",
+    "source_sha256": "094b7583b16dcd48aaa781b246e6986cc7ec150fcefbc5af79ec06ea78519e7f",
+    "release_sha256": "094b7583b16dcd48aaa781b246e6986cc7ec150fcefbc5af79ec06ea78519e7f",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_nhl_base.json",
+    "source": "legacy/outputs/formal_v24_nhl_fixed_t04/nhl_mit_flowers_fixed_t04_20260520_210816/runs/flowers102/base/run/config.json",
+    "source_sha256": "ff7d3ed8f633cbbf9d473f81f3e75b4ac84fe0f6e0d926281077c0b9d94955a3",
+    "release_sha256": "ff7d3ed8f633cbbf9d473f81f3e75b4ac84fe0f6e0d926281077c0b9d94955a3",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_nhl_dasupcon.json",
+    "source": "legacy/outputs/formal_v24_nhl_fixed_t04/nhl_mit_flowers_fixed_t04_20260520_210816/runs/flowers102/dahcr/run/config.json",
+    "source_sha256": "a3a6c7332c9ab2bdabd6bae4c036e1df4353251febd1c54acb4d1e31a0a42579",
+    "release_sha256": "a3a6c7332c9ab2bdabd6bae4c036e1df4353251febd1c54acb4d1e31a0a42579",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_saat_base.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/caltech256/saat/base/seed_42/bits_64/config.json",
+    "source_sha256": "a0cf8e582987c0c1e431fdf7534f6d0f81f185df5fec24750659f55528d20e78",
+    "release_sha256": "a0cf8e582987c0c1e431fdf7534f6d0f81f185df5fec24750659f55528d20e78",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_caltech256_saat_dasupcon.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/caltech256/saat/dasupcon/seed_42/bits_64/config.json",
+    "source_sha256": "3c0136ba9dbfaa09d6265a96c16409840b2070cdea121a971d2d2018752185b8",
+    "release_sha256": "3c0136ba9dbfaa09d6265a96c16409840b2070cdea121a971d2d2018752185b8",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_saat_base.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/mit_indoor67/saat/base/seed_42/bits_64/config.json",
+    "source_sha256": "29d531eb95e4769bd3e31f58398ee982de0e1dfdf43623f92abf423c81492caf",
+    "release_sha256": "29d531eb95e4769bd3e31f58398ee982de0e1dfdf43623f92abf423c81492caf",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_mit_indoor67_saat_dasupcon.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/mit_indoor67/saat/dasupcon/seed_42/bits_64/config.json",
+    "source_sha256": "01fa110ecbf167a95a66c85491c39f0ba216ee60a808712d011ec7ccd34d5ce7",
+    "release_sha256": "01fa110ecbf167a95a66c85491c39f0ba216ee60a808712d011ec7ccd34d5ce7",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_saat_base.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/flowers102/saat/base/seed_42/bits_64/config.json",
+    "source_sha256": "14f545c2f6817d7893db8d187b44bb014ec8db7f22687c24a1bf82ec1210fd44",
+    "release_sha256": "14f545c2f6817d7893db8d187b44bb014ec8db7f22687c24a1bf82ec1210fd44",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "configs/adapted_flowers102_saat_dasupcon.json",
+    "source": "legacy/outputs/formal_v29_saat_recover_0522_2024/train_runs/flowers102/saat/dasupcon/seed_42/bits_64/config.json",
+    "source_sha256": "d1aed4d07be4a4b23597e1d7834f37b05cdcdbbd9b9bbee724abc88193253be9",
+    "release_sha256": "d1aed4d07be4a4b23597e1d7834f37b05cdcdbbd9b9bbee724abc88193253be9",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/caltech256/seed_42/split_manifest.csv",
+    "source": "legacy/data/splits/caltech256/seed_42/split_manifest.csv",
+    "source_sha256": "e85517daf0605131ed25ebfbdd67a6f42937c77cb92607e4e823731414da9b9c",
+    "release_sha256": "e85517daf0605131ed25ebfbdd67a6f42937c77cb92607e4e823731414da9b9c",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/caltech256/seed_43/split_manifest.csv",
+    "source": "legacy/data/splits/caltech256/seed_43/split_manifest.csv",
+    "source_sha256": "0925ffda0e8f6fbe29b071d91359475593e52bd0f95cb98e39fa16dc7b669118",
+    "release_sha256": "0925ffda0e8f6fbe29b071d91359475593e52bd0f95cb98e39fa16dc7b669118",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/caltech256/seed_44/split_manifest.csv",
+    "source": "legacy/data/splits/caltech256/seed_44/split_manifest.csv",
+    "source_sha256": "bd0ef8b19bb3def0e0dc0b48b410316048bcdbf8fb6880fe972c9ee982566525",
+    "release_sha256": "bd0ef8b19bb3def0e0dc0b48b410316048bcdbf8fb6880fe972c9ee982566525",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/mit_indoor67/seed_42/split_manifest.csv",
+    "source": "legacy/data/splits/mit_indoor67/seed_42/split_manifest.csv",
+    "source_sha256": "ac1164c8604d04f52ad99add579385fcf49cb2e3c4cd8f0af2406e1f8d1724fb",
+    "release_sha256": "ac1164c8604d04f52ad99add579385fcf49cb2e3c4cd8f0af2406e1f8d1724fb",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/mit_indoor67/seed_43/split_manifest.csv",
+    "source": "legacy/data/splits/mit_indoor67/seed_43/split_manifest.csv",
+    "source_sha256": "40f28cbc1d8c7d8ffe08ab3a277ae3eca4b0592f3f24b510f5161f6f5bd50453",
+    "release_sha256": "40f28cbc1d8c7d8ffe08ab3a277ae3eca4b0592f3f24b510f5161f6f5bd50453",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/mit_indoor67/seed_44/split_manifest.csv",
+    "source": "legacy/data/splits/mit_indoor67/seed_44/split_manifest.csv",
+    "source_sha256": "c2ef4316195192fc4d4c6c3c94eb5b9907f7f6e00affbf3ed8d23b50f3547563",
+    "release_sha256": "c2ef4316195192fc4d4c6c3c94eb5b9907f7f6e00affbf3ed8d23b50f3547563",
+    "change": "byte-preserved"
+  },
+  {
+    "path": "data/splits/flowers102/seed_42/split_manifest.csv",
+    "source": "legacy/data/splits/flowers102/seed_42/split_manifest.csv",
+    "source_sha256": "be9441e40350a51147d1c2966e55d7c71a85502f3e0ce44a3195bc2c5154f9d5",
+    "release_sha256": "be9441e40350a51147d1c2966e55d7c71a85502f3e0ce44a3195bc2c5154f9d5",
+    "change": "byte-preserved"
+  }
+]

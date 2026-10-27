@@ -1,0 +1,11 @@
+# Required packages; not a historical environment lock.
+# Install matching torch/torchvision builds for the target CPU/CUDA environment.
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+pandas>=2
+Pillow>=10
+PyYAML>=6
+matplotlib>=3.7
+tqdm>=4.65
+pytest>=7

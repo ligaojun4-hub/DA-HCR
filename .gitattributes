@@ -1,0 +1,3 @@
+# Preserve the byte-identical historical source/config/manifest fingerprints.
+# Do not normalize line endings when committing or cloning this release.
+* -text

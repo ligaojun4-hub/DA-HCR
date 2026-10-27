@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "scope": "historical_hashnet_fixed_checkpoint_only",
+  "paper_pdf_sha256": "3fcba1ce8e226bb213825af6a076177481f2900d2aa78e89d34fca20df49d40f",
+  "source_B1_sha256": "6791bcd1b1de17a62a9dc7ab188ceae21127edf3346b966e68f0ae6fde120a17",
+  "source_clean_report_sha256": "d88b24e00370adf76965c41ba3f21289255bec73a75caa8dbd95a53a6c817c64",
+  "datasets": {
+    "caltech256": {
+      "original_counts": {
+        "test_query": 4351,
+        "test_retrieval": 4351,
+        "train": 18197,
+        "val": 2881
+      },
+      "classes": 256,
+      "screened_counts": {
+        "train": 18193,
+        "val": 2878,
+        "test_query": 4347,
+        "test_retrieval": 4344
+      },
+      "original": {
+        "path": "manifests/original/caltech256/seed_42/split_manifest.csv",
+        "sha256": "e85517daf0605131ed25ebfbdd67a6f42937c77cb92607e4e823731414da9b9c"
+      },
+      "screened": {
+        "path": "manifests/screened/caltech256/seed_42/split_manifest.csv",
+        "sha256": "b03984c9d5afaa037019ecf5f77e1b026f30c8615defc7c3860d53e3ffc01cb9"
+      }
+    },
+    "mit_indoor67": {
+      "original_counts": {
+        "test_query": 2313,
+        "test_retrieval": 2313,
+        "train": 9462,
+        "val": 1532
+      },
+      "classes": 67,
+      "screened_counts": {
+        "train": 9423,
+        "val": 1522,
+        "test_query": 2288,
+        "test_retrieval": 2291
+      },
+      "original": {
+        "path": "manifests/original/mit_indoor67/seed_42/split_manifest.csv",
+        "sha256": "ac1164c8604d04f52ad99add579385fcf49cb2e3c4cd8f0af2406e1f8d1724fb"
+      },
+      "screened": {
+        "path": "manifests/screened/mit_indoor67/seed_42/split_manifest.csv",
+        "sha256": "4fb02f680d5d80db72a23de41e07d155d7c4f978414f379843c51e254064209b"
+      }
+    },
+    "flowers102": {
+      "original_counts": {
+        "test_query": 1185,
+        "test_retrieval": 1185,
+        "train": 5044,
+        "val": 775
+      },
+      "classes": 102,
+      "screened_counts": {
+        "train": 5043,
+        "val": 774,
+        "test_query": 1184,
+        "test_retrieval": 1184
+      },
+      "original": {
+        "path": "manifests/original/flowers102/seed_42/split_manifest.csv",
+        "sha256": "be9441e40350a51147d1c2966e55d7c71a85502f3e0ce44a3195bc2c5154f9d5"
+      },
+      "screened": {
+        "path": "manifests/screened/flowers102/seed_42/split_manifest.csv",
+        "sha256": "5ba891b6298255e5d69f77150618a78474beb3c3d90fc14aa041ee379c346096"
+      }
+    }
+  },
+  "checkpoints": [
+    {
+      "dataset": "caltech256",
+      "method": "base",
+      "sha256": "bb5627ebc425e05493db9c79d88dd648aff2ca07208a028623b48725a706b083",
+      "size": 134714895,
+      "epoch": 10,
+      "num_classes": 256,
+      "relative_path": "outputs/formal_v12/caltech256_5baseline_exact30/hashnet_base/run/best_val.pt",
+      "identity_args": {
+        "dataset": "caltech256",
+        "baseline": "hashnet",
+        "method": "base",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    },
+    {
+      "dataset": "caltech256",
+      "method": "dasupcon",
+      "sha256": "12c9931855cfdfc35dfd49af917cde414e58af26d3a342093e6aeefe30b61846",
+      "size": 134714895,
+      "epoch": 30,
+      "num_classes": 256,
+      "relative_path": "outputs/formal_v12/caltech256_5baseline_exact30/hashnet_dasupcon/run/best_val.pt",
+      "identity_args": {
+        "dataset": "caltech256",
+        "baseline": "hashnet",
+        "method": "dasupcon",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    },
+    {
+      "dataset": "mit_indoor67",
+      "method": "base",
+      "sha256": "2299343d5cf8eebccb3f822d27ca1b0254e3c1359facd8d4081541d2bbe56b82",
+      "size": 134665743,
+      "epoch": 10,
+      "num_classes": 67,
+      "relative_path": "outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/hashnet_base/run/best_val.pt",
+      "identity_args": {
+        "dataset": "mit_indoor67",
+        "baseline": "hashnet",
+        "method": "base",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    },
+    {
+      "dataset": "mit_indoor67",
+      "method": "dasupcon",
+      "sha256": "f32a19b8d043114fb80fd5c549279735e27e8b9c95972bc117c967df66e55415",
+      "size": 134665743,
+      "epoch": 10,
+      "num_classes": 67,
+      "relative_path": "outputs/formal_v12/mit_indoor67_5baseline_exact30_with_dsh/hashnet_dasupcon/run/best_val.pt",
+      "identity_args": {
+        "dataset": "mit_indoor67",
+        "baseline": "hashnet",
+        "method": "dasupcon",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    },
+    {
+      "dataset": "flowers102",
+      "method": "base",
+      "sha256": "4c6efe339de7cbd8f0de3773580a020d9067ffb8868e74d371ac4e679e8cf2c4",
+      "size": 134674767,
+      "epoch": 20,
+      "num_classes": 102,
+      "relative_path": "outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/hashnet_base/run/best_val.pt",
+      "identity_args": {
+        "dataset": "flowers102",
+        "baseline": "hashnet",
+        "method": "base",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    },
+    {
+      "dataset": "flowers102",
+      "method": "dasupcon",
+      "sha256": "42c8ccf076b93ad079e637fb8131bed4a54799f662eb22165636741377c363c2",
+      "size": 134674831,
+      "epoch": 30,
+      "num_classes": 102,
+      "relative_path": "outputs/formal_v12/flowers102_5baseline_exact30_with_dsh/hashnet_dasupcon/run/best_val.pt",
+      "identity_args": {
+        "dataset": "flowers102",
+        "baseline": "hashnet",
+        "method": "dasupcon",
+        "split_seed": 42,
+        "hash_bits": 64
+      }
+    }
+  ]
+}
